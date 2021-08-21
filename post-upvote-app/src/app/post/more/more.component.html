@@ -1,0 +1,7 @@
+<div class="text-center mt-1 mb-1" *ngIf="more; else msg">
+    <button class="btn btn-dark">Listar mais posts</button>
+</div>
+
+<ng-template #msg>
+    <p class="text-center text-muted mt-1 mb-1">Não exitem mais posts.</p>
+</ng-template>

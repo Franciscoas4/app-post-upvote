@@ -1,0 +1,22 @@
+<div class="card col-md-6">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>{{ post.text }}</p>
+      <footer class="blockquote-footer">Usuário: <em>{{ post.user }}</em></footer>
+  </blockquote>
+  </div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-md-4">
+        <button class="edges" (click)="upvoteAdd()">
+          <i class="bi bi-hand-thumbs-up"></i>
+        </button>
+        {{ post.upvote }}
+      </div>
+      <div class="col-md-4 text-right">
+        {{ post.registerTime | date:'dd/MM/yy HH:mm:ss' }}
+      </div>
+    </div>
+  </div>
+
+</div>

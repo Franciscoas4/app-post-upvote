@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.project.apipostupvote.ApiPostUpvoteApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.381 s - in com.project.apipostupvote.ApiPostUpvoteApplicationTests
